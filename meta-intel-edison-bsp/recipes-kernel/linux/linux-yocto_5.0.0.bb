@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 
 PV = "5.0.0"
 
-SRC_URI = "git://github.com/edison-fw/linux.git;protocol=https;branch=eds-acpi-5.0.0 \
+SRC_URI = "git:///home/ferry/tmp/edison/andy-shev/linux/;protocol=file;branch=eds-debug \
         file://ftdi_sio.cfg \
         file://smsc95xx.cfg \
         file://bt_more.cfg \
