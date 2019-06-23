@@ -114,3 +114,18 @@ IMAGE_INSTALL_append = " powertop"
 
 # Clean corrupted journald entries
 IMAGE_INSTALL_append = " cleanjournal"
+
+# Java
+IMAGE_INSTALL_append = " openjre-8"
+
+# For Jenkins
+IMAGE_INSTALL_append = " ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-sans-condensed ttf-dejavu-serif ttf-dejavu-serif-condensed ttf-dejavu-mathtexgyre"
+
+# For me
+IMAGE_INSTALL_append = " vim tmux gettext"
+
+# For esp8266 compiler
+IMAGE_INSTALL_append = " gperf texinfo gawk ncurses python python-pyserial git findutils unzip bison tar sed patch help2man perl-module-locale perl-module-integer perl-module-text-tabs perl-module-encode perl-module-encode-alias perl-module-encode-config perl-module-encode-configlocal-pm perl-module-encode-encoding perl-module-encode-mime-name perl-module-storable perl-module-unicode-normalize perl-module-utf8 perl-module-utf8-heavy perl-module-base perl-module-unicore perl-module-if"
+
+# For Gerrit
+IMAGE_INSTALL_append = " procps postfix mailx"

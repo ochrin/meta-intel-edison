@@ -15,6 +15,7 @@ SRC_URI = "git://github.com/edison-fw/linux.git;protocol=https;branch=eds-4.18.0
         file://i2c_chardev.cfg \
         file://configfs.cfg \
         file://usb_dwc3.cfg \
+        file://ch341.cfg \
         "
 SRC_URI_append = " ${@bb.utils.contains('DISTRO_FEATURES', 'acpi', '', 'file://i2c_modules.cfg', d)}"
 
